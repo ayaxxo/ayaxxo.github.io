@@ -1,0 +1,111 @@
+body{
+    text-align: left;
+    padding-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+}
+#bg-color{
+    background-color: #f7ffb1b9;
+
+}
+
+.container{
+    margin:10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+
+    
+}
+    
+.top{
+    margin:5px;
+    width:40%;
+
+}
+.middle{
+    margin:5px;
+    width:40%;
+
+}
+.bottom{
+    margin:5px;
+    width:40%;
+
+}
+.CoursesList{
+    width:70%;
+    padding-left:120px;
+}
+#list :hover{
+    background-color: #0d6efd;
+}
+div#list div {
+    background-color: #fff;
+    text-align: left;
+    color: black;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ced4da;
+    height: fit-content;
+    width: 60%;
+}
+.content-img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    /* opacity: 0.7; */
+    margin-left: 20px;
+    height: 100vh;
+    filter: drop-shadow(10px 10px 10px#0d6efd );
+ }
+
+ .text{
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+    box-sizing: border-box;
+    height: fit-content;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(255, 255, 255, 0.589);
+    color: black;
+    font-size: xx-large; 
+    font-weight: bolder;  
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+ }
+ .text a{
+    text-decoration: none;
+    color: black;
+ }
+ .text a:visited{
+    color: black;    
+    text-decoration: none;
+
+
+
+ }
+  
+.content-img:hover .text {
+       opacity: 1.0;
+       visibility: visible; opacity: 1;
+     }
+     .content-img:hover{
+        /* opacity: 1.0; */
+        filter: contrast(70%);
+
+
+     }
+     #button-addon2{
+        margin: 5px;
+     }

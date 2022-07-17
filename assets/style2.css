@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bg{
+    background-image: url(./images/sci.jpg);
+    width: 100%;
+    backdrop-filter:blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+.m-auto {
+    margin: auto!important;
+}
+.w-100 {
+    width: 100%!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+main {
+    display: block;
+}
+.text-center {
+    text-align: center!important;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    text-align: center;
+}
+.form-floating{
+    margin:5px;
+}
